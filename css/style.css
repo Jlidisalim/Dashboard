@@ -475,6 +475,7 @@ tr td:nth-child(3) .state-table3 {
 /* Medium <= 992px */
 
 @media screen and (max-width: 992px) {
+    /* Grid Container Start  */
     .grid-container {
         grid-template-columns: 1fr;
         grid-template-rows: 0.2fr 3fr;
@@ -484,8 +485,11 @@ tr td:nth-child(3) .state-table3 {
         width: 26em;
         overflow: hidden;
     }
+    /* Grid Container End  */
+    /* Sidebar Start  */
     .sidebar{display: none;}
-    
+    /* Sidebar End  */
+    /* Header Start  */
     .header {
         justify-content: start;
         align-items: center;
@@ -510,6 +514,8 @@ tr td:nth-child(3) .state-table3 {
     i.fa-solid.fa-table-cells-large, i.fa-solid.fa-calendar ,i.fa-regular.fa-bell {
         display: none;
     }
+    /* Header End  */
+    /* Main Start  */
     .main {
         grid-area: main;
         background-color: #eeee;
@@ -548,27 +554,24 @@ tr td:nth-child(3) .state-table3 {
         display: block;
         width: 300px;
     }
+    .table {
+        width: 60%;
+        height: 581px;
+        margin-top: 50px;
+        padding: 0;
+    }
+    table {
+        width: 295px;
+        height: 397px;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        
+        
+    }
+        /* Main End  */
+
    
-table {
-    width: 295px;
-    height: 397px;
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-}.table {
-    width: 60%;
-    height: 581px;
-    margin-top: 50px;
-    padding: 0;
-}
-table {
-    width: 295px;
-    height: 397px;
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-    
-}
 }
 @media screen and (max-width: 768px) {
   
