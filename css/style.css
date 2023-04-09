@@ -514,7 +514,7 @@ tr td:nth-child(3) .state-table3 {
     .main {
         grid-area: main;
         background-color: #eeee;
-        padding: 25px;
+        margin-left:40px;
     }
     .upgrade {
         width: 60%;
