@@ -481,7 +481,7 @@ tr td:nth-child(3) .state-table3 {
         grid-template-areas:
             "header"
             "main";
-        width: 25rem;
+        width: 26em;
         overflow: hidden;
     }
     .sidebar{display: none;}
@@ -493,8 +493,7 @@ tr td:nth-child(3) .state-table3 {
     }
     .header .bars{
         display: block;
-        position: relative;
-        left: 20px;
+        margin-left: 10px;
         font-size: 30px;
     
     
